@@ -24,15 +24,18 @@ Used **`facebook/bart-large-mnli`** model via the Hugging Face `pipeline` to pre
 ```python
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 out = classifier(text, candidate_labels)
-## 3. Key Results / Observations
-Aspect:	
-Zero-Shot Model	
-Few-Shot Prompting	
-Fine-Tuning (Future Work)	
-Description:
-Successfully predicted relevant tags with good accuracy for major categories
-Improved precision on ambiguous tickets
-Expected to increase overall F1-score through domain adaptation
+
+---
+
+##  Key Results / Observations
+
+| Aspect                 | Description                                                      |
+|------------------------|------------------------------------------------------------------|
+| **Zero-Shot Model**     | Successfully predicted relevant tags with good accuracy for major categories |
+| **Few-Shot Prompting**  | Improved precision on ambiguous tickets                          |
+| **Fine-Tuning (Future Work)** | Expected to increase overall F1-score through domain adaptation |
+
+
 
 
 
