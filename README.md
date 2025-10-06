@@ -31,11 +31,11 @@ out = classifier(text, candidate_labels)
 
 ## Key Results / Observations
 
-| Aspect                      | Description                                                       |
-|-----------------------------|-------------------------------------------------------------------|
-| **Zero-Shot Model**          | Successfully predicted relevant tags with good accuracy for major categories |
-| **Few-Shot Prompting**       | Improved precision on ambiguous tickets                           |
-| **Fine-Tuning (Future Work)**| Expected to increase overall F1-score through domain adaptation  |
+- **Zero-Shot Model**: Successfully predicted relevant tags with good accuracy for major categories  
+- **Few-Shot Prompting**: Improved precision on ambiguous tickets  
+- **Fine-Tuning (Future Work)**: Expected to increase overall F1-score through domain adaptation
+
+
 
 
 
